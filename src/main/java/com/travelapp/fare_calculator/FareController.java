@@ -3,10 +3,10 @@ package com.travelapp.fare_calculator;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/fare")
+@RequestMapping("/api/fares")
 public class FareController {
 
-    private final FareService fareService;
+    private final FareService fareService
 
     // Spring automatically injects the FareService here
     public FareController(FareService fareService) {
