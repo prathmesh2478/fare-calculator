@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/fares")
 public class FareController {
 
-    private final FareService fareService
+    private final FareService fareService;
 
     // Spring automatically injects the FareService here
     public FareController(FareService fareService) {
