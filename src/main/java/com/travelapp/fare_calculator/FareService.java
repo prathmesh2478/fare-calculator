@@ -18,7 +18,7 @@ public class FareService {
 
         // 3. Apply peak season surge pricing if applicable
         if (request.isPeakSeason()) {
-            totalFare = totalFare * PEAK_MULTIPLIER;
+            totalFare = totalFare * PEAK_MULTIPLIER
         }
 
         // 4. Format the route name nicely
